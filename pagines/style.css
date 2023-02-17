@@ -34,13 +34,44 @@ div.tablaform{
 
 }
 
-div.elemento div input{
+div.elemento{
     color: blue;
     display: block;
     font-weight: bold;
     justify-content: center;
     width: 150px;
-    margin-top: 1cm
+    margin-top: 0.50cm;
+    margin-left: 90px;
+   
+
+}
+
+p.elemento2p{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    margin-top: 0.50cm;
+    position: absolute;
+    top: 15cm;
+    left: 6.5cm;
+    z-index: 2;
+    color: blue;
+    font-weight: bold;
+
+}
+
+div.elemento2 input{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    justify-content: center;
+    width: 200px;
+    height: 250px;
+    margin-top: 0.50cm;
+    position: absolute;
+    top: 9cm;
+    left: 8cm;
+    z-index: 2;
    
 
 }

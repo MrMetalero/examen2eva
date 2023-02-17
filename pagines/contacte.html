@@ -26,10 +26,10 @@
 
 <div class="tablaform">
 
-    <div>
-        <div class="elemento"> Nom <input type="text"> </div>
+    <div class="bloque 1">
+        <div class="elemento"> Nom <input type="text" placeholder="Nom"> </div>
    
-        <div class="elemento"> Cognoms <input type="text"> </div>
+        <div class="elemento"> Cognoms <input type="text" placeholder="Cognom"> </div>
    
         
 
@@ -37,20 +37,33 @@
     </div>
 
     <div>
-        <div class="elemento"> Peli favorita <input type="text"> </div>
+        
+        <div class="elemento"> Peli favorita 
+            <select name="pelis" id="pelis"> 
+                <option value="Alcarrás">Alcarrás</option>
+                <option value="As Bestas"> As Bestas</option>
+                <option value="Cinco Lobitos">Cinco Lobitos</option>
+                <option value="La Maternal">La Maternal</option>
+                <option value="Modelo 77">Modelo 77</option>
 
-        <div class="elemento"> Puntuació <input type="text"> </div>
+            </select> 
+        
+        </div>
+
+        <div class="elemento"> Puntuació <input type="number" min="1" max="10"> </div>
 
 
     </div>
 
-    <div>
-        <div class="elemento2"> Opinió <input type="text"> </div>
+   
 
-    </div>
 
 </div>
 
+<div>
+    <div class="elemento2"> <p class="elemento2p">Opinió</p> <input type="text"> </div>
+
+</div>
 
 
 
