@@ -1,0 +1,51 @@
+
+
+
+header{
+    color: blue;
+    text-align: center;
+    background-color: lightpink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+
+nav{
+    background-color: lightblue;
+    margin: none;
+    width: 100%;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: yellow;
+    color: black;
+
+}
+
+div.tablaform{
+    background-color: lightsalmon;
+    display: flex;
+    width: 20cm;
+    height: 15cm;
+    margin-left: 2cm;
+    margin-top: 2cm;
+    justify-content: center;
+
+}
+
+div.elemento div input{
+    color: blue;
+    display: block;
+    font-weight: bold;
+    justify-content: center;
+    width: 150px;
+    margin-top: 1cm
+   
+
+}
+
+
+
+
+

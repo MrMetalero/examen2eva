@@ -1,3 +1,130 @@
 
 
+header{
+    color: blue;
+    text-align: center;
+    background-color: lightpink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+
+nav{
+    background-color: lightblue;
+    margin: none;
+    width: 100%;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: yellow;
+    color: black;
+
+}
+
+
+img.imgborder1{
+    
+    height: 12cm;
+    width: 12cm;
+    display: flex;
+    margin: auto;
+    z-index: 1;
+    
+
+}
+
+img.imgborder2{
+    
+    height: 12cm;
+    width: 12cm;
+    display: flex;
+    margin: auto;
+    z-index: 1;
+    
+
+}
+
+img.imgborder3{
+    
+    height: 12cm;
+    width: 12cm;
+    display: flex;
+    margin: auto;
+    z-index: 1;
+    
+
+}
+
+div.todosimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1cm;
+    margin-bottom: 2cm;
+    margin-top: 0cm;
+    
+   
+    z-index: 1;
+}
+
+div.img1{
+    text-align: center;
+    background-color: lightsalmon;
+    width: 15cm;
+    height: 15cm;
+    position: relative;
+    left: 20px;
+    z-index: 1;
+    color: blue;
+}
+
+a.a1{color: blue; font-style: normal; font-variant: normal;}
+
+div.img2{
+    text-align: center;
+    background-color: lightseagreen;
+    width: 15cm;
+    height: 15cm;
+    z-index: 3;
+    position: relative;
+    left: -30px;
+    top: 35px;
+    color: red;
+}
+a.a2{color: red; font-style: normal; font-variant: normal;}
+
+
+div.img3{
+    text-align: center;
+    background-color: lightsalmon;
+    width: 15cm;
+    height: 15cm;
+    margin-bottom: 1cm;
+    position: relative;
+    z-index: 1;
+    left: -85px;
+    top: 70px;
+    color: blue;
+}
+a.a3{color: blue; font-style: normal; font-variant: normal;}
+
+
+footer.centerfooter{
+    text-align: center;
+    background-color: yellow;
+    border : 1px solid black;
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
 
